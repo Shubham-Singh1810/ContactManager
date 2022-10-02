@@ -1,0 +1,60 @@
+@media only screen and (max-width:1200px){
+    .homecontainer{
+        margin: 0px 50px;
+    }
+    .contactCard{
+        padding: 5px;
+     }    
+}
+@media only screen and (max-width:1000px){
+    .homecontainer{
+        margin: 0px 10px;
+    }
+    .contactCard{
+        padding: 1px;
+        padding-bottom: 5px;
+     }
+     .homeRight img{
+        height: 300px;
+      }
+}
+@media only screen and (max-width:700px){
+    .Home{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .homeLeft{
+        padding: 10px;
+        width: 100%;
+    } 
+    .avtar img{
+        height: 250px;
+        width: 250px;
+      } 
+      .avtar{
+        display: flex;
+        justify-content: center;
+      } 
+      .contactListHeading{
+        flex-direction: column;
+      }
+      .contactListHeading h1{
+        text-align: center;
+      }  
+      .contactListHeading img{
+        height:100px;
+      }
+      .adduserImgDiv{
+        display: flex;
+        justify-content: center;
+      }
+      .adduserImgDiv img{
+        height: 300px;
+        width: 300px;
+      }
+}
+@media only screen and (max-width:500px){
+      .ContactList{
+        grid-template-columns: 1fr;
+      }
+}

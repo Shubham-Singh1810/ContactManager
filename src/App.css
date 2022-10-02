@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* general setting */
+/* nav start */
+.nav{
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* nav end */
+
+/* home start */
+.homecontainer{
+  margin: 0px 120px;
+}
+.Home{
+  display: flex;
+  padding-top: 20vh;
+  justify-content: space-between;
+}
+.homeRight img{
+  height: 400px;
+}
+.homeLeft{
+  font-family: cursive;
+  text-align: justify;
+  margin-top: 50px;
+  width: 50%;
+}
+.animation{
+  height: 150px;
+}
+/* home end */
+/* addcontact start */
+.contactImg{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.Addcontact{
+  padding-top: 10vh;
+  margin-top: 60px;
+}
+.addUserImg{
+  height: 200px;
+  width: 200px;
+}
+/* addcontact end */
+
+/* contactList start */
+.ContactList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 50px;
+}
+.contactListHeading{
+  background-color: rgb(231, 239, 247);
+  display: flex;
+  justify-content: center;
+}
+.contactListHeading img{
+  height:200px;
+}
+.contactListHeading h1{
+  padding-top: 70px;
+  font-family: cursive;
+  color: gray;
+  text-shadow: 1px 1px 2px black;
+}
+/* contactList end */
+
+/* contact card start */
+.contactCard{
+  padding: 10px;
+  background-color:lightgray;
+  box-shadow: 2px 2px 4px black;
+}
+/* contact card end */
+
+/* footer start */
+.Footer{
+  background-color: darkslategray;
+  color: gray;
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* footer end */
